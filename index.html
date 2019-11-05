@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Florian Cramer</title>
+        <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+        <style type="text/css">
+            /*:root{
+                --c:rebeccapurple;
+                --altura:70vh;
+                
+            }*/
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            /*header{
+                display: flex;
+                border: 2px solid black;
+                height: 800px;
+                width: 800px;
+                align-items: center;
+                margin: auto;
+                justify-content: center;
+            }*/
+            header{
+                width: 100%;
+                display: flex;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            body{
+                font-size: 18px;
+            }
+            header>div{
+                width: 50%;
+                height: 60vh;
+            }
+            /*div{
+                width: 300px;
+                height: 300px;
+            }*/
+            .bloc_esq{
+                background: white;
+            }
+            .bloc_esq img{
+                object-fit: cover;
+                object-position: top center;
+            }
+            .bloc_dre img{
+                object-fit: cover;
+                object-position: right center;
+            }
+            .bloc_dre{
+                background: white;
+            }
+            h1{
+                position: absolute;
+                width: 100%;
+                height: 30vh;
+                text-align: center;
+                color: plum;
+                top: 45vh;
+                font-family: 'Bowlby One SC', cursive;
+            }
+            article {
+                width: 34em;
+                margin: auto;
+            }
+            article>p:first-child{
+                color: rebeccapurple;
+                column-count: 2;
+                column-gap: 1.7em; /*Separar col.lumnes*/
+                text-align: justify;
+                hyphens: auto; /*Separar sil.labes _ Guions*/
+                line-height: 18px; /*interlineat*/
+                column-rule: 1px solid rebeccapurple; /*filete entre columnes*/
+                padding: 8vh 0 5vh 0;
+            }
+            article #cos{
+                /*background: purple;*/
+                margin: 0;
+                width: auto;
+                padding: 0 3em;
+                text-align: justify;
+                hyphens: auto;
+            }
+            article #cos>p:first-child::first-letter{
+                color: purple;
+                font-family: 'verdana','Serif';
+                font-size: 90px;
+                float: left;
+                padding-right: 0.2em;
+                margin-top: -0.4em;
+                margin-bottom: -0.2em;
+                
+            }
+            .cercle{
+                max-width: 18em;
+                float: left;
+                margin-left: -8em;
+                margin-right: 2em;
+                shape-margin: 1em;
+                shape-outside: circle(50%)border-box;
+            }
+            .hexagon{
+                max-width: 18em;
+                float: right;
+                margin-right: -8em;
+                margin-left: 2em;
+                shape-margin: 1em;
+                shape-outside: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)border-box;
+            }
+            .cercle, .hexagon{
+                background: plum;
+            }
+            .cercle img, .hexagon img{
+                mix-blend-mode: multiply;
+            }
+            .cercle, .cercle img{
+                border-radius: 50%;
+            }
+            .hexagon, .hexagon img{
+                clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            }
+            /*article #cos p{
+                padding: 0 0 0 0;
+            }*/
+            @media (max-width:600px){
+                body{
+                    background: white;
+                    font-size: 12px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+           <h1>Florian Cramer, reader in 21st Century</h1>
+            <div class="bloc_esq">
+                <img src="img/florian-2015-bw.jpg">
+            </div>
+            <div class="bloc_dre">
+                <img src="img/Florian-Cramer_-Laisa-Maria_bn.jpg">
+            </div>
+        </header>
+        <article>
+           
+            <p>Florian Cramer (1969) is a writer, photographer, filmmaker and theorist. He is a reader in 21st Century Visual Culture at Willem de Kooning Academy, Rotterdam, an art and design school which is part of Rotterdam University of Applied Sciences (Hogeschool Rotterdam). Florian Cramer studied literature and art history at FU Berlin, Universität Konstanz and University of Massachusetts at Amherst. He received an MA in comparative literature, art history and modern German philology from Freie Universität Berlin (1998), and PhD in comparative literature from the same university (2006). Afterwards, he worked as lecturer in Comparative Literature, FU Berlin (1999-2004). He administrated rohrpost mailing list (with Tilman Baumgärtel, 2002-2004), and co-edited Unstable Digest of code poetry on nettime list (with Alan Sondheim, 2002-2003). He also created the combinatory poetry site Permutations, was involved in Neoism as fictioneered on Neoism.org, and collaborated on the Runme.org software art repository (2002-2003). He has published on arts, modernism, literature, information technology and (sub)culture.</p>
+            
+            <div id="cos">
+            <p>In 2004, Cramer visited Piet Zwart Institute, Rotterdam, as a Media Design research fellow, wrote the essay Words Made Flesh, Code, Culture, Imagination and worked with students in workshops and tutorials. In summer 2006, he returned as the new course director of the Media Design master program, and later served as the director of the Institute (2010-2011). Since 2008 he has been a reader at the Willem de Kooning Academy, Rotterdam, an art and design school which is part of Rotterdam University of Applied Sciences (Hogeschool Rotterdam). He teaches, on a project basis, in different departments of his school, both on the B.A. level and in the different Masters programs of the Piet Zwart Institute (which is part of Willem de Kooning Academy). From 2011-2015 he also served as director of Creating 010, Hogeschool Rotterdam, a centre focusing on two areas of research: Communication in the Digital Age and Cultural Diversity.</p>
+           
+                <div class="cercle">   
+                <img src="img/omslag-groot_bn.jpg" alt="llibre1">
+                </div> 
+           
+            <p>Cramer is a board member of De Player, a space for sound/performance art, PrintRoom, a space for artists’ books and DIY publishing and Herman, a venue for experimental pop music. He is a member/tenant of the self-organized artists' studio building Kunst en Complex, and a member of the artist-run analog filmmaking lab filmwerkplaats. He is an activist in the political party BIJ1 and a member of its Rotterdam core team. He was also a part-time program developer at WORM, the Rotterdam-based Institute of Avantgardistic Recreation (2011-2015).</p>
+
+            <p>He is on the academic advisory board for the arts magazine Neural and of APRJA, a peer-reviewed Open Access journal published by the media studies department of Aarhus University, Denmark.</p>
+
+            <p>Since 2006, he lives in Rotterdam.</p>
+            
+            <p>----------------------------------------------------------------</p>
+            
+                <div class="hexagon">
+                <img src="img/web-aesthetics2_bn.jpg" alt="llibre2">
+                </div>
+            
+            <p>I am a reader (in Dutch: lector, in non-UK English: practice-oriented research professor) in 21st Century Visual Culture at Willem de Kooning Academy, Rotterdam, Netherlands, an art and design school which is part of Rotterdam University of Applied Sciences (Hogeschool Rotterdam).</p>
+
+            <p>I do my best to teach, on a project basis, in as many departments of my school as possible, both on the B.A. level and in the different Masters programs of the Piet Zwart Institute (which is part of Willem de Kooning Academy).</p>
+            
+            <p>Within the research department of my school, I am specialized in Autonomous Practices, one of our three B.A. graduation profiles. The Autonomous Practices curriculum and research projects are focused on DIY artist-run initiatives and self-organization as contemporary art.</p>
+            </div>
+        
+        </article>
+    </body>
+</html>
